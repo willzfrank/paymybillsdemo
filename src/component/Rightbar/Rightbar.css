@@ -1,0 +1,61 @@
+.rightbar--container {
+  flex: 2;
+  height: 100vh;
+  padding: 50px 20px;
+  border-left: 1px solid rgb(211, 211, 211);
+  background-color: rgb(244, 252, 252);
+}
+
+img {
+  width: 32px;
+  height: 32px;
+  object-fit: cover;
+}
+
+.middle--text {
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.rightbar--container--top {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.rightbar--marginleft {
+  margin-left: 10px;
+  margin-right: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.rightbar--center {
+  margin: 40px 0px;
+}
+
+.icon--circle {
+  border: 1px solid grey;
+  padding: 5px;
+  border-radius: 50%;
+}
+.rightbar--center p {
+  margin: 5px 0px;
+}
+
+.rightbar--center--chart {
+  margin: 100px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* .rightbar--center--footer {
+  border: 2px solid red;
+} */
+
+.rightbar--center--footer--body {
+  display: flex;
+  justify-content: space-around;
+  margin: 25px 0px;
+}

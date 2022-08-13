@@ -1,0 +1,58 @@
+.sidebar--container {
+  flex: 1;
+  border-right: 1px solid rgb(211, 211, 211);
+  height: 100vh;
+  padding: 20px;
+}
+
+h1 {
+  color: rgb(52, 52, 109);
+}
+
+.sidebar--container--header {
+  margin-bottom: 70px;
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: column;
+}
+
+.sidebar--container--small--text {
+  display: flex;
+  justify-content: center;
+}
+
+.nav--icon {
+  margin-right: 10px;
+}
+.sidebar--navcontainer ul li {
+  margin: 40px 0px;
+  list-style: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+.sidebar--navcontainer ul li:hover,
+.hover:hover {
+  color: rgb(79, 175, 79);
+}
+
+.hover {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+.navfooter--event {
+  margin: 50px 0px;
+}
+
+.navfooter--event--img {
+  margin: 50px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bold {
+  font-weight: bolder;
+}
